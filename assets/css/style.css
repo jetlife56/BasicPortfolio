@@ -1,0 +1,16 @@
+.navlinks{
+  float:left;
+  width: 60%;
+  list-style: none;
+}
+.navlinks li {
+  float: left;
+  margin: 5%;
+}
+form {
+  clear: both;
+}
+h1 {
+  float:left;
+}
+ 
