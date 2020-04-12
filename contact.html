@@ -10,23 +10,32 @@
         <nav class="navwrap">
             <h1>Tyree West</h1>
             <ul class="navlinks">
-                <li><a href="index.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+                <li class="infoheader"><a href="index.html">About</a></li>
+                <li class="infoheader"><a href="contact.html">Contact</a></li>
+                <li class="infoheader"><a href="portfolio.html">Portfolio</a></li>
             </ul>
         </nav>
     </header>
-        <div>
-            <h2>Contact</h2>
-            <form action="submit-name"> 
-                <p><strong>Name</strong></p>
-                <input type="text" placeholder="John Doe" required>
+        <div class="maincontent">
+            <h2 class="h2wrap">Contact</h2>
+            <form id="form" action="submit-name"> 
+                <label for="name">
+                    Name
+                </label>
+
+                <input id="name" type="text" placeholder="John Smith" required>
                 <br />
-                <p><strong>E-mail</strong></p>
-                <input type="text" placeholder="example@email.com">
+
+                <label for="email">
+                    E-mail
+                </label>
+
+                <input id="email" type="email" placeholder="example@email.com">
                 <br />
-                <p><strong>Message</strong></p>
-                <input type="text" placeholder="Message">
+                <label for="message">
+                    Message
+                </label>
+                <textarea id="message" placeholder="message" ></textarea>
                 <br />
                 <br />
                 <button type="submit">Submit</button>
@@ -35,8 +44,8 @@
         <footer>
             <div>
                 <ul>
-                    <li><a href="contact.html">Contact Me</a></li>
-                    <li><a href="index.html">About</a></li>
+                    <li class="footertext"><a href="contact.html">Contact Me</a></li>
+                    <li class="footertext"><a href="index.html">About</a></li>
                 </ul>
             </div>
         </footer>
